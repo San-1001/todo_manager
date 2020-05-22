@@ -80,6 +80,11 @@ body{
   margin-left: 8px;
   color: #453C52;
 }
+.TodoItem-dueDate{
+  font-size: 10px;
+  color: rgb(103, 89, 123);
+  margin-left: 10px;
+}
 .TodoItem-container{
   display: inline-flex;
   padding: 2px 8px;
@@ -89,12 +94,7 @@ body{
   width: 16px;
   height: 16px;
 }
-.TodoItem-overdueLabel{
-  margin-left: 10px;
-  color: #C53030;
-  font-size: 12px;
-  display: inline;
-}
+
 .TodoItem-dateLabel{
   margin-left: 10px;
   color: #726A7E;
