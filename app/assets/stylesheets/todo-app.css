@@ -85,6 +85,9 @@ body{
   color: rgb(103, 89, 123);
   margin-left: 10px;
 }
+.TodoItem-text{
+  text-decoration: line-through;
+}
 .TodoItem-container{
   display: inline-flex;
   padding: 2px 8px;
