@@ -14,6 +14,7 @@
           <% if show_due_date %>
             <p class="TodoItem-dueDate" ><%= todo.due_date.to_s(:short) %></p>
           <%end%>
+          <%break%>
         <%end%>
         <% if (!show_completed_todo && todo.completed) %>
           <% break %>
