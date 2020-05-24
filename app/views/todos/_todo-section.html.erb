@@ -15,10 +15,10 @@
             <p class="TodoItem-dueDate" ><%= todo.due_date.to_s(:short) %></p>
           <%end%>
         <%end%>
-        <% if !show_completed_todo && todo.completed %>
+        <% if (!show_completed_todo && todo.completed) %>
           <% break %>
         <%end%>
-        <% if show_completed_todo && todo.completed %>
+        <% if (show_completed_todo && todo.completed) %>
           <input class="TodoItem-checkbox" type="checkbox" checked>
           <p class="TodoItem-text" ><%= todo.todo_text %></p>
           <% if show_due_date %>
