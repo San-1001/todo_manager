@@ -104,10 +104,19 @@ body{
   font-size: 12px;
   display: inline;
 }
+.TodoItem-container:hover{
+  background-color: #F1EDF7;
+}
+
+.TodoItem-delete > img{
+  width: 16px;
+}
+
 .TodoItem-delete{
   visibility: hidden;
   margin-left: 8px;
 }
-.TodoItem-delete > img{
-  width: 16px;
+
+.TodoItem-container:hover .TodoItem-delete{
+  visibility: visible;
 }
