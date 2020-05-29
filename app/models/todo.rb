@@ -5,7 +5,7 @@ class Todo < ActiveRecord::Base
   end
 
   def self.overdue
-    all.where("due_date < ? and (completed: false)", Date.today).ordered
+    all.where("due_date < ?", Date.today)
   end
 
   def self.due_today
